@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julianna White</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Rubik+Dirt&family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be77a95f77.js" crossorigin="anonymous"></script>
+</head>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GGQ7GNVPW6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GGQ7GNVPW6');
+</script>
+    
+<body>
+    <header class="navbar">
+            <a href="work.html" class="chosen">work</a>
+            <div class="name">julianna white</div>
+            <a href="play.html">play</a>
+    </header>
+    
+    <div class="title">
+        <button id="overviewChev" value="on" class="zoom-out"><i class="fa-solid fa-chevron-down"></i></button>Overview
+    </div>
+    
+    <div id ="overview-content">
+        <p>I’m currently a Technical Solutions Manager at Domo. It’s exciting to work on so many things (pipeline design, connections via API documentation, data transformations, custom solutions, etc.), but I enjoy problem solving + coding the most. My strengths include efficient algorithms and data structures (preferably written in Python or Java), front end languages + frameworks (HTML, CSS, JavaScript, and React), and SQL queries.     
+        </p>
+        <p>I find a lot of satisfaction from both advancing my own skillset and teachings others what I know. At Berkeley, I spent a lot of time teaching CS courses (61a, 61b, 375) and creating curriculum + organizing hack-a-thons for Bay Area high schools. Post-college, I’ve found similar opportunities, but for children of Domo employees via a 2 week summer coding camp. In 2023, I enhanced the program by independently conceptualizing, developing, and delivering a new, comprehensive Python course.</p>
+        <p>I'm required to hide code for most school projects, but you can find some of my personal projects and teaching materials below. Feel free to contact me for additional info, inquiries, feedback, or anything else  - julianna@berkeley.edu</p>
+    </div>
+    
+    
+    
+    <div class="title">
+        <button id="teachingChev" value="on" class="zoom-out"><i class="fa-solid fa-chevron-down"></i></button>Teaching
+    </div>
+    
+    <div class= "sections">
+        
+        <div id ="teaching-content">
+            <div class="container-sb" style="justify-content: space-evenly;">
+                <div>
+                    <div> <img src="DKCC.png" class="img-content"></div><div class="teachingName">
+                    <a href="https://docs.google.com/presentation/d/1LwaU8tNoOodHsvbIy5TJol7L88Oj9zPkr1Qd53g5P-E/edit#slide=id.p1" target="_blank">Domo Kids Coding Camp</a></div>  
+                </div>
+                <div>
+                    <div><img src="61BDiscussions.png" class="img-content"></div>
+                    <div class="teachingName"><a href="teaching.html" target="_blank">CS61B: Data Structures</a></div>
+                </div>
+                <div>
+                    <div><img id = "AnovaImage" src="ANovaHacks2.jpg" class="img-content"></div>
+                    <div class="teachingName"><a id = "anova" href="https://www.berkeleyanova.org/anovahacks" target="_blank">ANova Hacks</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="left title">
+            <button id="projectChev" class="zoom-out" value="on"><i class="fa-solid fa-chevron-down"></i></button><strong>Projects</strong>
+        </div>
+        
+        <div id ="project-content">
+        <div class="container-sb">
+            <div>
+                <div><img src="splitsies.png" class="proj-img-content"></div>
+            </div>
+            <div>
+                <div class="projectName"><h1 class="splitsies">splitsies</h1></div>
+                <div class="desc">As I’ve explored NY’s restaurant scene, I haven’t found an app that easily splits the bill - so I decided to make my own. Powered by React, splitsies is dedicated to fairly divying up expenses with friends. It’s still a work in progress, but I’ve really enjoyed both making and using it. <br><br>Check out <a href = "https://juliannawhite.github.io/splitsies-app/" target="_blank">splitsies</a> or its <a href = "https://github.com/juliannawhite/splitsies-app/tree/main" target="_blank">Github</a></div>
+            </div>
+        </div>
+        <div class="container-sb">
+            <div>
+                <div class="projectName"><h1 class="splitsies" id="manhattan">Manhattan Match</h1></div>
+                <div class="desc">
+                        
+                To help my friends and I become better acquianted with New York (we're almost all transplants), I created a matching game for Manhattan's neighborhoods.<br><br>
+                    
+                Play <a href = "https://juliannawhite.github.io/ManhattanMatch/" target="_blank">Manhattan Match</a> or visit its <a href = "https://github.com/juliannawhite/ManhattanMatch" target="_blank">Github</a>
+                </div>
+            </div>
+            <div>
+                <div><img src="ManhattanMatch.png" class="proj-img-content"></div>
+            </div>          
+        </div>
+        <div class="container-sb">
+            <div>
+                <div><img src="StageBlock.png" class="proj-img-content"></div>
+            </div>
+            <div>
+                <div class="projectName"><h1 class="splitsies">Stage Block</h1></div>
+                <div class="desc">Through prototypes, Figma mark-ups, and usability studies, my team developed Stage Block— a tool dedicated to helping playwrights visualize scenes. Users can create custom characters with lines and blocking for front and top-down views, and use the playback feature to see how the scene feels in action.
+                <p style = "text-align: left">
+                    <a href = 'https://github.com/juliannawhite/screenwriting' target="_blank"> Github</a>, 
+                    <a href = 'https://medium.com/@helenxu_91186/stage-block-a-stage-visualization-and-blocking-tool-for-playwrights-63151e7de76b' target="_blank"> Medium Article</a>, 
+                    <a href = 'https://drive.google.com/file/d/1ah0r5c9hDwAJD2bbb5YkGHVD4ogCJQ3p/view' target="_blank"> Poster</a>
+<!--                   , <a href = 'https://www.youtube.com/watch?reload=9&v=pROsTcSqtDg' target="_blank"> Concept Video</a>-->
+                </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-sb">
+            <div>
+                <div class="projectName"><h1 class="splitsies">Bear Maps</h1></div>
+                <div class="desc">I developed the backend of a maps web server, integrating tries for autocomplete and the A* algorithm for routing. Additionally, I implemented map rastering, turn-by-turn navigation, and location search functionalities while optimizing efficient runtime performance.</div>
+            </div>
+            <div>
+                <div><img src="BearMaps.png" class="proj-img-content"></div>
+            </div>            
+        </div>
+        
+        <div class="container-sb">
+            <div>
+                <div><img src="Gitlet.png" class="proj-img-content"></div>
+            </div>
+            <div>
+                <div class="projectName"><h1 class="splitsies">Gitlet</h1></div>
+                <div class="desc">Gitlet, a version-control system mimicking some basic features of Git, enables users to save, restore, and view the history of backups for file collections, supporting functionalities like committing, checking out files, merging, branching, and viewing commit logs.</div>
+            </div>
+        </div>
+        
+        <div class="container-sb">
+                <div>
+                    <div class="projectName"><h1 class="splitsies">HelPin</h1></div>
+                    <div class="desc">Developed in a UC Davis Hackathon, HelPin is a web app designed to facilitate connections between individuals in need and those who can offer assistance. The platform allows users to drop location pins and provide details about the assistance required by individuals in need. Other users can then view these descriptions and extend help or supplies accordingly.</div>
+                </div>
+            <div>
+                <div>
+                    <img src="HelPin.png" class="proj-img-content"> 
+                </div>
+            </div>          
+        </div>
+    </div>
+</div>
+    
+</body>
+    <script src="script.js"></script>
+</html>
