@@ -38,7 +38,7 @@ window.onload = function () {
 
     anova.onmouseout = function() {
         var image = document.getElementById('AnovaImage');
-        image.src = 'ANovaHacks2.jpg';
+        image.src = 'anovahacks2.png';
     };
 }
 
